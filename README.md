@@ -1,44 +1,60 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - *Sea Monster Crowdfunding*
 
-Submitted by: **Your Name Here**
+Submitted by: **Ahmet Aytac**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Sea Monster Crowdfunding** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
-
-The following **optional** features are implemented:
-
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] The introduction section explains the background of the company and how many games remain unfunded.
+* [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with ScreenToGif
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+### Challenges Encountered:
+
+**Git Setup:**
+- Installed Git for Windows and cloned the repository to my local machine
+
+**DOM Manipulation:**
+- Used `createElement()` and `appendChild()` to dynamically add game cards
+- Implemented template literals for cleaner HTML string generation
+
+**Array Methods:**
+- Used `reduce()` to calculate total backers (19,187) and total raised ($800,268)
+- Applied `filter()` to separate funded (4 games) and unfunded (7 games) games
+- Used `toLocaleString()` for proper number formatting with commas
+
+**Event Handling:**
+- Added click event listeners to filter buttons
+- Implemented `deleteChildElements()` to clear previous results before displaying new filtered games
+
+**Advanced JavaScript:**
+- Used ternary operator for grammatically correct text ("game remains" vs "games remain")
+- Applied destructuring and spread operator to extract top 2 funded games
+- Most funded: Zoo Tycoon: The Board Game ($442,602)
+- Second most funded: How to Read Minds 2 Kit ($147,975)
+
+### Key Takeaways:
+- Template literals simplify dynamic content creation
+- Array methods like `reduce()` and `filter()` are powerful for data manipulation
+- Event listeners enable interactive user experiences
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2025 Ahmet Aytac
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
