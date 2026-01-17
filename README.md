@@ -19,7 +19,6 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented features:
 
-GIF created with ScreenToGif
 
 ## Notes
 
